@@ -18,7 +18,7 @@ void	swap_a(t_stacks *stack, int bonus)
 	int	tmp;
 
 	if (stack->size_a == 0 || stack->size_a == 1)
-		return;
+		return ;
 	tmp = 0;
 	tmp = stack->a[0];
 	stack->a[0] = stack->a[1];
@@ -32,7 +32,7 @@ void	swap_b(t_stacks *stack, int bonus)
 	int	tmp;
 
 	if (stack->size_b == 0 || stack->size_b == 1)
-		return;
+		return ;
 	tmp = 0;
 	tmp = stack->b[0];
 	stack->b[0] = stack->b[1];
@@ -45,9 +45,9 @@ void	swap_s(t_stacks *stack, int bonus)
 {
 	int	tmp;
 
-	if ((stack->size_a == 0 || stack->size_a == 1 ) ||
-		(stack->size_b == 0 || stack->size_b == 1))
-		return;
+	if ((stack->size_a == 0 || stack->size_a == 1)
+		|| (stack->size_b == 0 || stack->size_b == 1))
+		return ;
 	tmp = 0;
 	tmp = stack->a[0];
 	stack->a[0] = stack->a[1];
@@ -95,7 +95,7 @@ void	push_b(t_stack *stack, int bonus)
 		i = -1;
 		stack->size_a--;
 		while (++i < stack->size_a)
-			stack->a[i] = stack->a[i + 1]
+			stack->a[i] = stack->a[i + 1];
 		if (!bonus)
 			ft_printf("pb\n");
 	}

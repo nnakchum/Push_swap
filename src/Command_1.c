@@ -81,7 +81,7 @@ void	push_a(t_stacks *stack, int bonus)
 		return ;
 }
 
-void	push_b(t_stack *stack, int bonus)
+void	push_b(t_stacks *stack, int bonus)
 {
 	int	i;
 

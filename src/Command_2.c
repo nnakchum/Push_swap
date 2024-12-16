@@ -45,7 +45,7 @@ void	rotate_b(t_stacks *stack, int bonus)
 		ft_printf("rb\n");
 }
 
-vvoid	rotate_r(t_stacks *stack, int bonus)
+void	rotate_r(t_stacks *stack, int bonus)
 {
 	int	tmp;
 	int	i;
